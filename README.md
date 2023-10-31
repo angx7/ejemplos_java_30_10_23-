@@ -36,3 +36,19 @@
  * CAC
  * AC
  */
+
+
+// Tienes una calculadora en la que escribes un número y un espejo vertical en el que puedes reflejarlo:
+
+// Algunas veces el número escrito y el reflejado son el mismo (algunas veces no y otras veces lo que 
+// se refleja ni siquiera es un número). Escribe un programa que, dados dos enteros m y n,
+// encuentre la cantidad r de enteros en el intervalo de m a n (incluyéndolos a ambos) que sean
+// iguales a sus números reflejados en el espejo. Por ejemplo, si m = 7 y n = 12 entonces r = 2
+// puesto que los números 8 y 11 son iguales a sus números reflejados en el espejo. Observa que
+// el número 12851 también es igual a su número reflejado en el espejo.
+
+// Entrada: Dos números enteros m y n con 0 ≤ m ≤ n ≤ 999,999,999.
+// Salida: Un número entero r y números que son iguales a los reflejados.
+
+// Entrada:                Salida
+// 7     12                  2  -->  8, 11
